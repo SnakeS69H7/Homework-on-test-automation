@@ -1,5 +1,5 @@
 def is_year_leap(number):
-    return "True" if number % 4 == 0 else "False"
+    return number % 4 == 0
 
 
 num = int(input("Введите год: "))
